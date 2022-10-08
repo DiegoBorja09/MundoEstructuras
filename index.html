@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mundo Estructura</title>
+    <link rel="icon" href="assets/logolap.png">
+    <script src="https://kit.fontawesome.com/03f594d898.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <script src="js/scrollreveal.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <div class="mobile-navigation" id="mobile-navigation">
+
+        <div class="mobile-navigation--header">
+            <img src="assets/1.png" alt="" class="logo">
+            <div class="close-button" onclick="toggleMobileNavigation()">
+                <button class="close-button">
+                    <i class="fa-solid fa-close"></i>
+
+                </button>
+            </div>
+        </div>
+        <a href="#home" class="mobile-navigation--item" onclick="toggleMobileNavigation()">INICIO</a>
+        <a href="#about" class="mobile-navigation--item" onclick="toggleMobileNavigation()">¿QUIÉNES SOMOS?</a>
+        <a href="#services" class="mobile-navigation--item" onclick="toggleMobileNavigation()">SERVICIOS</a>
+        <a href="#portafolio" class="mobile-navigation--item" onclick="toggleMobileNavigation()">PROYECTOS</a>
+        <a href="#contacto" class="mobile-navigation--item" onclick="toggleMobileNavigation()">CONTÁCTANOS</a>
+    </div>
+
+
+
+    <header>
+
+        <img src="assets/1.png" alt="" class="logo">
+        <nav class="navigation">
+
+            <a href="#home" class="navigation--item">INICIO</a>
+            <a href="#about" class="navigation--item">¿QUIÉNES SOMOS?</a>
+            <a href="#services" class="navigation--item">SERVICIOS</a>
+            <a href="#portafolio" class="navigation--item">PROYECTOS</a>
+            <a href="#contacto" class="navigation--item">CONTÁCTANOS</a>
+        </nav>
+        <div class="menu-button" onclick="toggleMobileNavigation()">
+            <button class="whap">
+                <i class="fa-solid fa-bars"></i>
+
+            </button>
+        </div>
+
+    </header>
+
+    <a href="https://wa.me/+573126834029" class="btn-what" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
+
+    <section class="main" id="home">
+
+        <div class="main--img">
+            <img src="assets/2.png" alt="">
+        </div>
+
+        
+
+
+
+    </section>
+
+
+
+    <section id="about" class="about">
+
+
+
+        <div class="about-me">
+            <div>
+                <h1 class="skill__title">¿QUIÉNES SOMOS?</h1>
+                <p>Somos una empresa con mas de 10 años de experiencia en el sector, nos especializamos en Montaje de
+                    Estructuras metálicas perfiles europeos (IPE,HEA,PÁG PHR ) y americanos ( WF ).
+                    Contamos con el personal idóneo, tecnología e infraestructura para garantizar la satisfacción,
+                    competitividad, confiabilidad y crecimiento sostenible de nuestros clientes.
+                </p>
+            </div>
+            <img src="assets/IMG_20151009_104256494.jpg" alt="">
+
+            <img src="assets/IMG_0704.JPG" alt="">
+            <div>
+                <h1 class="skill__title">¿Por qué elegirnos?</h1>
+                <p>Nuestros proyectos de Montaje de estructuras e Carpintería metálica cumplen con los estándares de
+                    calidad y plazos
+                    fijados. Los servicios de Mundo Estructuras siempre se han caracterizado por sus altos estándares en
+                    materia de seguridad, salud en el trabajo, y protección ambiental.
+                </p>
+            </div>
+
+        </div>
+
+
+
+
+
+
+
+
+
+
+    </section>
+
+
+    <section id="portafolio" class="portafolio">
+
+        <h1 class="skill__title2">Proyectos</h1>
+        <div class="card-grid">
+            <div class="card">
+                <img src="assets/nuevo-modelo-de-negocio-auge-del-ecommerce-ok.jpg" class="card-img-top" alt="...">
+
+                <h5 class="card-title">Ecommerce</h5>
+                <p>BackEnd de Ecommerce realizado con nodejs, Express.js, JSONWebToken y Mongodb. Cuenta con varios
+                    metodos de
+                    registros entre los cuales estan local, GitHub, Google Y facebook </p>
+                    
+                <a href="https://github.com/DiegoBorja09/Ecommerce-nodejs" class="link"><i
+                        class="fab fa-github"></i>Repositorio</a>
+                    
+            </div>
+            <div class="card">
+                <img src="assets/job.jpg" class="card-img-top" alt="...">
+
+                <h5 class="card-title">JobSearch</h5>
+                <p>BackEnd de JobSearch realizado con nodejs, Express.js, JSONWebToken y Mongodb. Cuenta con Un registro
+                    local y inicio de session guardando el token en el cache <br> <br> </p>
+                    
+                <a href="https://github.com/DiegoBorja09/node-jobsearch" class="link"><i
+                        class="fab fa-github"></i>Repositorio</a>
+                    
+            </div>
+            <div class="card">
+                <img src="assets/movies.png" class="card-img-top" alt="...">
+
+                <h5 class="card-title">Movies app</h5>
+                <p>BackEnd de Movies app realizado con nodejs, Express.js, JSONWebToken, Sequelizer y Mysql. Cuenta con
+                    Un registro
+                    local y inicio de session.Gestion de peliculas con categorias y actores</p>
+                <a href="https://github.com/DiegoBorja09/challenger" class="link"><i
+                        class="fab fa-github"></i>Repositorio</a>
+
+            </div>
+            <div class="card">
+                <img src="assets/crud1.png" class="card-img-top" alt="...">
+
+                <h5 class="card-title">Crud</h5>
+                <p>BackEnd de JobSearch realizado con nodejs, Express.js, Cors y Mysql.
+                    Crud con metodos para listar usuarios, buscar por nombre, eliminar, y Actualizar.
+                    Controlado el origen de las peticiones del FrontEnd. </p>
+                <a href="https://github.com/DiegoBorja09/Backend-Prueba" class="link"><i
+                        class="fab fa-github"></i>Repositorio</a>
+
+            </div>
+            <div class="card">
+                <img src="assets/frontend.jfif" class="card-img-top" alt="...">
+
+                <h5 class="card-title">Crud</h5>
+                <p>FrontEnd desarrollado en angular con html, css Bootstrap y SweetAlert para los mensajes de alerta.
+                    Gestionando el crud mediante Peticiones a Nuestro BackEnd. <br> <br></p>
+                <a href="https://crud-angular-user.vercel.app/" class="link"><i
+                        class="fab fa-github"></i>Repositorio</a>
+
+            </div>
+            <div class="card">
+                <img src="assets/portafolio.JPG" class="card-img-top" alt="...">
+
+                <h5 class="card-title">Portafolio</h5>
+                <p>Portafolio Web Desarrollado con Html5, Css y JavaScript.
+                    Utilizando Fontawesome para los iconos y desplegado en Vercel. <br> <br></p>
+                <a href="https://crud-angular-user.vercel.app/" class="link"><i
+                        class="fab fa-github"></i>Repositorio</a>
+
+            </div>
+
+        </div>
+        </div>
+
+
+    </section>
+
+    <section id="services" class="services-reveal">
+
+        <h1 class="skill__title">Servicios</h1>
+        <div class="services">
+            <div class="services__item">
+                <i class="fa-solid fa-mobile-screen"></i>
+                <h5>Diseño Responsive</h5>
+                <p>Su sitio se mostrará correctamente en cualquier dispositivo, incluidas computadoras de
+                    escritorio, tabletas y teléfonos móviles.</p>
+            </div>
+            <div class="services__item">
+                <i class="fa-solid fa-palette"></i>
+                <h5>Diseño creativo</h5>
+                <p>Un buen y atractivo diseño web lo ayuda a mantener a sus clientes potenciales en su sitio, que es
+                    la cara digital de su negocio.</p>
+            </div>
+            <div class="services__item">
+                <i class="fa-solid fa-code"></i>
+                <h5>Desarrollo</h5>
+                <p>Las buenas practicas y metodologias son importantes a la hora de desarrollar de una manera
+                    eficiente, para cumplir con las necesidades requeridas</p>
+            </div>
+            <div class="services__item">
+                <i class="fa-solid fa-thumbs-up"></i>
+                <h5>Integración de redes sociales</h5>
+                <p>Las redes sociales son importantes a la hora de promocionar su negocio y la manera como las
+                    integramos.</p>
+            </div>
+            <div class="services__item">
+                <i class="fa-solid fa-rocket"></i>
+                <h5>Rendimiento</h5>
+                <p>Retener a los usuarios es crucial Los sitios de alto rendimiento lo hacen de una manera
+                    satisfactoria.</p>
+            </div>
+            <div class="services__item">
+                <i class="fa-solid fa-gear"></i>
+                <h5>SEO</h5>
+                <p>Optimizaré su sitio con una estrategia inteligente de optimización de motores de búsqueda para
+                    generar clientes potenciales.</p>
+            </div>
+
+        </div>
+
+    </section>
+
+    <footer id="contacto" class="contacto">
+        <h1>Contacto</h1>
+        <div class="socials">
+            <a href="mailto:diegoborja09@gmail.com" class="socials--item"><i class="fa-solid fa-envelope"></i></a>
+            <a href="https://www.linkedin.com/in/diego-b-33428a127/" class="socials--item"><i
+                    class="fa-brands fa-linkedin"></i></a>
+            <a href="https://wa.me/+573126834029" class="socials--item"><i class="fa-brands fa-whatsapp"></i></a>
+            <a href="https://github.com/DiegoBorja09" class="socials--item"><i class="fab fa-github"></i></a>
+        </div>
+        <p>Copyright &copy; 2022 Diego Borja Padilla <br> All Rights Reserved</p>
+    </footer>
+
+
+
+    <script>
+
+
+        function toggleMobileNavigation() {
+            var element = document.getElementById("mobile-navigation");
+
+            if (element.classList.contains("mobile-navigation__open")) {
+                element.classList.remove("mobile-navigation__open")
+            } else {
+                element.classList.add("mobile-navigation__open")
+            }
+        }
+    </script>
+
+    <script src="js/index.js"></script>
+
+</body>
+
+</html>
