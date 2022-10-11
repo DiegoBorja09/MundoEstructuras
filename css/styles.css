@@ -607,7 +607,7 @@ footer p {
     }
     .about-me img {
         
-        height: 350px;
+        display: none;
 
 
     }
