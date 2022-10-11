@@ -55,7 +55,8 @@ header {
     text-decoration: none;
     color: #ff8c00;
     margin-left: 24px;
-    font-size: 15px;
+    font-size: 17px;
+    
 }
 
 
@@ -127,15 +128,15 @@ header {
 
     width: 100%;
     height: 100vh;
-    display: flex;
+    display: block;
     justify-content: center;
     align-items: center;
     margin: 0 auto;
     padding: 0;
-    background: url("/assets/20160130_102544.jpg");
+    background: url("/assets/Landing\ Page.jpg");
     background-position: center center;
     background-repeat: no-repeat;
-    background-attachment: fixed;
+    background-attachment:scroll;
     background-size: cover;
 
 
@@ -155,7 +156,7 @@ header {
 
 .main--img img {
     width: 40%;
-    background: rgba(255, 255, 255, 0.676)
+    
 }
 
 
@@ -207,7 +208,11 @@ header {
     margin-right: 6px;
 }
 .about{
-    background: rgb(255, 140, 0);
+    background: url("/assets/fondo1.jpg" );
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size:110%;
 }
 
 
@@ -262,7 +267,11 @@ header {
 }
 
 .portafolio{
-    background: rgb(255, 140, 0);
+    background: url("/assets/fondo2.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
     
 }
 
@@ -377,7 +386,7 @@ header {
 
 .services__item:hover {
     transform: scale(1.1);
-
+    
 
 }
 
@@ -387,6 +396,7 @@ header {
     font-size: 20px;
     margin-bottom: 20px;
     font-family: "poppins", sams-serif;
+    
 }
 
 .services__item p {
@@ -529,6 +539,10 @@ footer p {
     .card-grid {
         grid-template-columns: 1fr 1fr;
         margin: 0;
+    }
+    .about{
+        
+        background-size:cover;
     }
 }
 
