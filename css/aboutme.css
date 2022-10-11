@@ -18,7 +18,8 @@ html {
 
 section {
 
-    padding: 80px;
+    padding: 50px;
+    padding-top: 0px;
     text-align: center;
     background: white;
     margin: 0 auto;
@@ -26,22 +27,25 @@ section {
 
 
 }
+
 header {
     max-width: 1200px;
     font-family: "poppins", sams-serif;
     color: rgb(255, 170, 0);
-    display: flex;
+    display: block;
     align-items: center;
+    text-align: center;
     margin: auto;
 
 
 }
-.btn-what{
-    position:fixed;
+
+.btn-what {
+    position: fixed;
     width: 75px;
     height: 75px;
     line-height: 55px;
-    padding:10px;
+    padding: 10px;
     bottom: 20px;
     right: 20px;
     background: #0df053;
@@ -49,19 +53,17 @@ header {
     border-radius: 50px;
     text-align: center;
     font-size: 40px;
-    box-shadow: 0px 1px 10px rgba(0,0,0,0.3);
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.3);
     z-index: 100;
 
 }
 
-.navigation {
-    flex-grow: 1;
-    margin: 0 100px;
+.logo {
+
+    width: 20%;
 }
 
-.logo {
-    width: 80px;
-}
+
 
 
 
@@ -135,12 +137,13 @@ header {
     margin-bottom: 24px;
     margin-top: 24px;
 }
-.about-page{
+
+.about-page {
     background: rgb(255, 140, 0);
 
 }
 
-.about-me-page{
+.about-me-page {
     display: grid;
     grid-template-columns: 1fr 1fr;
     box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2);
@@ -151,7 +154,7 @@ header {
     height: 100%;
     transition: 0.5s ease;
     background: #fff;
-    
+
 
 
 
@@ -162,6 +165,7 @@ header {
     height: 500px;
 
 }
+
 .about-me-page p {
     font-size: 15px;
     text-align: left;
@@ -169,10 +173,11 @@ header {
     margin: 25px;
     padding: 0;
     color: rgb(69, 69, 69);
-    
+
 
 }
-.skill__title-page{
+
+.skill__title-page {
     font-size: 42px;
     font-weight: 500;
     text-align: center;
@@ -182,3 +187,34 @@ header {
     color: rgb(255, 140, 0);
 }
 
+@media only screen and (max-width:600px) {
+
+
+
+    .navigation {
+        display: none;
+    }
+
+    .mobile-navigation {
+        display: block;
+    }
+
+    .menu-button {
+        display: block;
+    }
+
+    header {
+        margin: 15px;
+    }
+}
+
+@media (max-width: 1700px) {
+    .about-me-page {
+
+        grid-template-columns: 1fr;
+    }
+
+    .about-me-page img {
+        display: none;
+    }
+}
