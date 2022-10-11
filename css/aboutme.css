@@ -8,7 +8,7 @@ body {
 
     padding: 0;
     margin: 0;
-
+   
 
 }
 
@@ -139,7 +139,11 @@ header {
 }
 
 .about-page {
-    background: rgb(255, 140, 0);
+    background: url("/assets/body\ completo\ .jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment:scroll;
+    background-size: cover;
 
 }
 
@@ -185,6 +189,49 @@ header {
     margin-bottom: 10px;
     margin-top: 10px;
     color: rgb(255, 140, 0);
+}
+
+
+footer {
+    display: block;
+    background-color: #262626;
+    text-align: center;
+    padding: 10px;
+
+}
+
+footer h1 {
+    font-size: 32px;
+    font-weight: 500;
+    font-family: "poppins", sams-serif;
+    margin-bottom: 10px;
+    background: linear-gradient(270deg, #4c4c4c 0%, #5e5e5e 37.25%, #8d8d8d 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+footer p {
+    font-family: "poppins", sams-serif;
+    font-size: 12px;
+    margin-top: 20px;
+    background: linear-gradient(270deg, #4c4c4c 0%, #5e5e5e 37.25%, #8d8d8d 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.socials--item {
+    font-family: "poppins", sams-serif;
+    font-size: 25px;
+    margin: 0 20px;
+    margin-bottom: 20px;
+    align-items: center;
+    background: linear-gradient(270deg, #4c4c4c 0%, #5e5e5e 37.25%, #8d8d8d 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
 }
 
 @media only screen and (max-width:600px) {
