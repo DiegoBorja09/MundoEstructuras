@@ -47,7 +47,7 @@ header {
 
 .logo {
     width: 80px;
-    
+
 }
 
 
@@ -64,7 +64,7 @@ header {
 
 .navigation--item:hover {
     color: #000000;
-    
+
 }
 
 .navigation--button {
@@ -152,6 +152,7 @@ header {
 
 
 }
+
 .main--content {
     flex: 1;
     font-family: "poppins", sams-serif;
@@ -161,10 +162,11 @@ header {
 
 .main--img img {
     width: 80%;
-    
+
 
 }
-.container{
+
+.container {
     max-width: 1800px;
     display: flex;
     justify-content: center;
@@ -178,7 +180,7 @@ header {
     font-weight: 500;
     margin: 0;
     padding: 0;
-    
+
 }
 
 
@@ -293,7 +295,8 @@ header {
     background-size: cover;
 
 }
-.portafolio-reveal{
+
+.portafolio-reveal {
     max-width: 1500px;
     margin: auto;
 }
@@ -395,7 +398,7 @@ header {
 
 }
 
-.services-reveal{
+.services-reveal {
     max-width: 1500px;
     margin: auto
 }
@@ -502,61 +505,61 @@ footer p {
     border-radius: 50%;
     border: 9px solid #ffa600;
     animation: spinner-bulqg1 0.96s infinite linear alternate,
-         spinner-oaa3wk 1.92s infinite linear;
- }
- 
- @keyframes spinner-bulqg1 {
-    0% {
-       clip-path: polygon(50% 50%, 0 0, 50% 0%, 50% 0%, 50% 0%, 50% 0%, 50% 0%);
-    }
- 
-    12.5% {
-       clip-path: polygon(50% 50%, 0 0, 50% 0%, 100% 0%, 100% 0%, 100% 0%, 100% 0%);
-    }
- 
-    25% {
-       clip-path: polygon(50% 50%, 0 0, 50% 0%, 100% 0%, 100% 100%, 100% 100%, 100% 100%);
-    }
- 
-    50% {
-       clip-path: polygon(50% 50%, 0 0, 50% 0%, 100% 0%, 100% 100%, 50% 100%, 0% 100%);
-    }
- 
-    62.5% {
-       clip-path: polygon(50% 50%, 100% 0, 100% 0%, 100% 0%, 100% 100%, 50% 100%, 0% 100%);
-    }
- 
-    75% {
-       clip-path: polygon(50% 50%, 100% 100%, 100% 100%, 100% 100%, 100% 100%, 50% 100%, 0% 100%);
-    }
- 
-    100% {
-       clip-path: polygon(50% 50%, 50% 100%, 50% 100%, 50% 100%, 50% 100%, 50% 100%, 0% 100%);
-    }
- }
- 
- @keyframes spinner-oaa3wk {
-    0% {
-       transform: scaleY(1) rotate(0deg);
-    }
- 
-    49.99% {
-       transform: scaleY(1) rotate(135deg);
-    }
- 
-    50% {
-       transform: scaleY(-1) rotate(0deg);
-    }
- 
-    100% {
-       transform: scaleY(-1) rotate(-135deg);
-    }
- }
+        spinner-oaa3wk 1.92s infinite linear;
+}
 
-.loader{
+@keyframes spinner-bulqg1 {
+    0% {
+        clip-path: polygon(50% 50%, 0 0, 50% 0%, 50% 0%, 50% 0%, 50% 0%, 50% 0%);
+    }
+
+    12.5% {
+        clip-path: polygon(50% 50%, 0 0, 50% 0%, 100% 0%, 100% 0%, 100% 0%, 100% 0%);
+    }
+
+    25% {
+        clip-path: polygon(50% 50%, 0 0, 50% 0%, 100% 0%, 100% 100%, 100% 100%, 100% 100%);
+    }
+
+    50% {
+        clip-path: polygon(50% 50%, 0 0, 50% 0%, 100% 0%, 100% 100%, 50% 100%, 0% 100%);
+    }
+
+    62.5% {
+        clip-path: polygon(50% 50%, 100% 0, 100% 0%, 100% 0%, 100% 100%, 50% 100%, 0% 100%);
+    }
+
+    75% {
+        clip-path: polygon(50% 50%, 100% 100%, 100% 100%, 100% 100%, 100% 100%, 50% 100%, 0% 100%);
+    }
+
+    100% {
+        clip-path: polygon(50% 50%, 50% 100%, 50% 100%, 50% 100%, 50% 100%, 50% 100%, 0% 100%);
+    }
+}
+
+@keyframes spinner-oaa3wk {
+    0% {
+        transform: scaleY(1) rotate(0deg);
+    }
+
+    49.99% {
+        transform: scaleY(1) rotate(135deg);
+    }
+
+    50% {
+        transform: scaleY(-1) rotate(0deg);
+    }
+
+    100% {
+        transform: scaleY(-1) rotate(-135deg);
+    }
+}
+
+.loader {
     background: rgb(255, 255, 255);
     width: 100%;
-    height:100vh;
+    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -568,14 +571,14 @@ footer p {
     transition: clip-path 1s ease-in-out;
 }
 
-.loader2{
+.loader2 {
     clip-path: circle(0% at 100% 100%);
 }
 
 
 
 @media only screen and (max-width:600px) {
-
+    
 
     .download {
         font-size: 15px;
@@ -588,6 +591,9 @@ footer p {
 
     .fa {
         display: none;
+    }
+    .headline {
+        font-size: 42px;
     }
 
     .download .fa {
@@ -661,6 +667,14 @@ footer p {
 
     }
 
+    .headline{
+        display: none;
+    }
+
+    .container{
+        display: block;
+    }
+
     .skill__title {
 
         font-size: 32px;
@@ -675,14 +689,14 @@ footer p {
 
     .main--img img {
         width: 70%;
-        background: rgba(255, 255, 255, 0.676)
+        
     }
 
     .navigation {
         margin: 0 50px;
     }
 
-
+   
 
 
 }
