@@ -237,6 +237,8 @@ header {
 
 .about{
     margin: 80px;
+    justify-content: center;
+    align-items: center;
 }
 
 .about-me p {
@@ -262,6 +264,8 @@ header {
 }
 
 .about-me {
+    justify-content: center;
+    align-items: center;
     max-width: 1500px;
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -334,9 +338,11 @@ header {
 }
 
 .portafolio-reveal {
+    justify-content: center;
+    align-items: center;
     padding: 0;
     max-width: 1500px;
-    margin: 80px;
+    margin: 80px auto;
 }
 
 .skill__title2 {
@@ -440,7 +446,7 @@ header {
 .services-reveal {
     padding:0;
     max-width: 1500px;
-    margin: 80px
+    margin: 80px auto
 }
 
 .services__item {
@@ -698,6 +704,20 @@ footer p {
 
         background-size: cover;
     }
+    .portafolio-reveal {
+        
+        margin: 50px;
+    }
+    .services-reveal {
+        
+        margin: 50px
+    }
+    .about{
+        margin: 50px
+    }
+    .container{
+        margin: 50px
+    }
 }
 
 @media (max-width: 1100px) {
@@ -754,20 +774,7 @@ footer p {
 
 
     }
-    .portafolio-reveal {
-        
-        margin: 50px;
-    }
-    .services-reveal {
-        
-        margin: 50px
-    }
-    .about{
-        margin: 50px
-    }
-    .container{
-        margin: 50px
-    }
+   
    
 }
 
