@@ -180,6 +180,7 @@ header {
     font-weight: 500;
     margin: 0;
     padding: 0;
+    color: #050505;
 
 }
 
@@ -241,7 +242,7 @@ header {
     align-items: center;
 }
 
-.about-me p {
+.p {
     font-size: 15px;
     text-align: left;
     font-family: "poppins", sams-serif;
@@ -472,16 +473,11 @@ header {
     font-size: 20px;
     margin-bottom: 20px;
     font-family: "poppins", sams-serif;
+    
 
 }
 
-.services__item p {
-    font-size: 15px;
-    text-align: center;
-    font-family: "poppins", sams-serif;
-    margin: 0;
-    padding: 0;
-}
+
 
 .icon {
     width: 150px;
@@ -500,6 +496,20 @@ header {
 
 }
 
+.contactos{
+    background-color: #262626;
+    color: #FFFFFF;
+
+}
+
+.contactos h5 {
+    font-size: 20px;
+    font-family: "poppins", sams-serif;
+    
+
+}
+
+
 
 
 footer {
@@ -510,16 +520,7 @@ footer {
 
 }
 
-footer h1 {
-    font-size: 32px;
-    font-weight: 500;
-    font-family: "poppins", sams-serif;
-    margin-bottom: 10px;
-    background: linear-gradient(270deg, #4c4c4c 0%, #5e5e5e 37.25%, #8d8d8d 100%);
-    background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-}
+
 
 footer p {
     font-family: "poppins", sams-serif;
@@ -533,7 +534,7 @@ footer p {
 
 .socials--item {
     font-family: "poppins", sams-serif;
-    font-size: 25px;
+    font-size: 30px;
     margin: 0 20px;
     margin-bottom: 20px;
     align-items: center;
@@ -674,7 +675,7 @@ footer p {
 
     }
 
-    .about-me P {
+    .P {
         font-size: 15px;
     }
 
@@ -860,7 +861,7 @@ footer p {
     font-size: 15px;
   }
 
-  .about-me p {
+  .p {
     font-size: 12px;
   }
   .services__item h5 {
@@ -869,10 +870,6 @@ footer p {
 
 }
 
-.services__item p {
-    font-size: 12px;
-    
-}
  
  
  
