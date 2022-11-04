@@ -198,7 +198,7 @@ header {
     display: flex;
     align-items: center;
     justify-content: center;
-    border: 1px solid #e0e0e0;
+    border: 2px solid #e0e0e0;
     padding: 10px 36px;
     margin: auto;
     margin-top: 20px;
@@ -210,6 +210,12 @@ header {
     -webkit-text-fill-color: transparent;
 
 
+}
+.download:hover{
+    background: linear-gradient(270deg, #ffaa00 0%, #ff6f01 37.25%, rgb(255, 132, 0) 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 
