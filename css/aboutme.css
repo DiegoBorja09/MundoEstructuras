@@ -18,28 +18,14 @@ html {
 
 section {
 
-    padding: 50px;
-    padding-top: 0px;
     text-align: center;
     background: white;
-    margin: 0 auto;
+    margin: 0;
+    padding: 0;
 
 
 
 }
-
-header {
-    max-width: 1200px;
-    font-family: "poppins", sams-serif;
-    color: rgb(255, 170, 0);
-    display: block;
-    align-items: center;
-    text-align: center;
-    margin: auto;
-
-
-}
-
 .btn-what {
     position: fixed;
     width: 75px;
@@ -63,83 +49,9 @@ header {
     width: 20%;
 }
 
-
-
-
-
-.navigation--item {
-    text-decoration: none;
-    color: #ff8c00;
-    margin-left: 24px;
-    font-size: 15px;
-}
-
-
-
-.navigation--item:hover {
-    color: #26b7ff;
-    text-decoration: underline;
-}
-
-.navigation--button {
-    border: none;
-    padding: 10px 36px;
-    background: linear-gradient(270deg, #FAA245 0%, #D8328A 37.25%, #753872 100%);
-    border-radius: 50px;
-    color: #ffff;
-}
-
-.menu-button {
-    flex-grow: 1;
-    display: none;
-}
-
-.menu-button button {
-    border: none;
-    background-color: transparent;
-    font-size: 1.5rem;
-}
-
-.mobile-navigation {
-    font-family: "poppins", sams-serif;
-    position: fixed;
-    width: 100vw;
-    height: 100vh;
-    background-color: white;
-    padding: 24px;
-    display: none;
-    transform: translateX(-100%);
-    transition: transform 300ms ease-in-out;
-}
-
-.mobile-navigation__open {
-    transform: translateX(0);
-}
-
-.mobile-navigation--header {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin-bottom: 40px;
-}
-
-.close-button button {
-    border: none;
-    background-color: transparent;
-    font-size: 1.5rem;
-}
-
-.mobile-navigation--item {
-    text-decoration: none;
-    font-size: 1.5rem;
-    color: #bdbdbd;
-    display: block;
-    margin-bottom: 24px;
-    margin-top: 24px;
-}
-
 .about-page {
-    background: url("/assets/body\ completo\ .jpg");
+
+    background: url("/assets/fondo3.png");
     background-position: center center;
     background-repeat: no-repeat;
     background-attachment:scroll;
@@ -148,17 +60,14 @@ header {
 }
 
 .about-me-page {
+    max-width: 1700px;
     display: grid;
     grid-template-columns: 1fr 1fr;
     box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2);
-    margin: auto;
-    margin-top: 35px;
     text-align: center;
-    width: 100%;
-    height: 100%;
-    transition: 0.5s ease;
+    margin: auto;
+    margin-bottom: 25px;
     background: #fff;
-
 
 
 
@@ -174,9 +83,10 @@ header {
     font-size: 15px;
     text-align: left;
     font-family: "poppins", sams-serif;
-    margin: 25px;
-    padding: 0;
+    margin: 0;
+    padding: 25px;
     color: rgb(69, 69, 69);
+    
 
 
 }
@@ -191,6 +101,51 @@ header {
     color: rgb(255, 140, 0);
 }
 
+.skill__title2 {
+    font-size: 42px;
+    font-weight: 500;
+    text-align: center;
+    font-family: "poppins", sams-serif;
+    margin-bottom: 25px;
+    margin-top: 25px;
+    color: rgb(255, 255, 255);
+}
+
+
+
+.contactos{
+    background-color: #262626;
+    color: #FFFFFF;
+
+}
+
+.contactos h5 {
+    font-size: 20px;
+    font-family: "poppins", sams-serif;
+    
+
+}
+.custom-shape-divider-top-1666725209 {
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-top-1666725209 svg {
+    position: relative;
+    display: block;
+    width: calc(116% + 1.3px);
+    height: 127px;
+}
+
+.custom-shape-divider-top-1666725209 .shape-fill {
+    fill: #FFFFFF;
+}
+
+
+
 
 footer {
     display: block;
@@ -200,16 +155,7 @@ footer {
 
 }
 
-footer h1 {
-    font-size: 32px;
-    font-weight: 500;
-    font-family: "poppins", sams-serif;
-    margin-bottom: 10px;
-    background: linear-gradient(270deg, #4c4c4c 0%, #5e5e5e 37.25%, #8d8d8d 100%);
-    background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-}
+
 
 footer p {
     font-family: "poppins", sams-serif;
@@ -223,7 +169,7 @@ footer p {
 
 .socials--item {
     font-family: "poppins", sams-serif;
-    font-size: 25px;
+    font-size: 30px;
     margin: 0 20px;
     margin-bottom: 20px;
     align-items: center;
@@ -234,31 +180,15 @@ footer p {
 
 }
 
-@media only screen and (max-width:600px) {
 
 
-
-    .navigation {
-        display: none;
-    }
-
-    .mobile-navigation {
-        display: block;
-    }
-
-    .menu-button {
-        display: block;
-    }
-
-    header {
-        margin: 15px;
-    }
-}
 
 @media (max-width: 1700px) {
     .about-me-page {
 
         grid-template-columns: 1fr;
+        margin: 25px;
+        
     }
 
     .about-me-page img {
