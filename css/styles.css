@@ -18,7 +18,7 @@ html {
 
 section {
 
-   
+
     text-align: center;
     background: white;
     margin: 0 auto;
@@ -131,29 +131,47 @@ header {
     height: 100vh;
     position: relative;
     
-    
-
-
 }
 
 
-.videos{
-width: 100%;
-height: 100%;
-object-fit: cover;
+
+.videos {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 
-.main--img{
+.main--img {
     width: 100%;
     height: 100%;
     position: absolute;
-    justify-content:left;
+    justify-content: center;
     align-items: center;
+    text-align: center;
     display: flex;
+    font-family: "poppins", sams-serif;
+    color: rgb(255, 255, 255);
+    z-index: 10;
+
 }
-.main--img img{
-    width: 35%;
-    background:rgba(255, 255, 255, 0.57)
+
+
+.main--img h1 {
+    font-size: 45px;
+    font-weight: 800;
+
+}
+
+.main--img h2 {
+    font-size: 35px;
+    font-weight: 500;
+
+}
+
+.main--img p {
+    font-size: 18px;
+    font-weight: 500;
+
 }
 
 
@@ -174,20 +192,27 @@ object-fit: cover;
 
 
 .download {
+    width: 30%;
     font-size: 20px;
+    font-weight: 600;
     display: flex;
     align-items: center;
+    justify-content: center;
     border: 1px solid #e0e0e0;
     padding: 10px 36px;
+    margin: auto;
+    margin-top: 20px;
     background: transparent;
     border-radius: 50px;
-    background: linear-gradient(270deg, #ffa200 0%, #da6c04 37.25%, #c07514 100%);
+    background: linear-gradient(270deg, #ffffff 0%, #ffffff 37.25%, #ffffff 100%);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 
 
 }
+
+
 
 .btn-what {
     position: fixed;
@@ -223,7 +248,7 @@ object-fit: cover;
 }
 
 
-.about{
+.about {
     margin: 80px;
     justify-content: center;
     align-items: center;
@@ -246,7 +271,7 @@ object-fit: cover;
     font-weight: 500;
     text-align: center;
     font-family: "poppins", sams-serif;
-    margin:10px;
+    margin: 10px;
     color: rgb(255, 140, 0);
 }
 
@@ -277,7 +302,7 @@ object-fit: cover;
 
 
 .portafolio {
-    
+
     background: url("/assets/fondo2.jpg");
     background-position: center center;
     background-repeat: no-repeat;
@@ -285,6 +310,7 @@ object-fit: cover;
     background-size: cover;
 
 }
+
 .custom-shape-divider-top-1666725209 {
     top: 0;
     left: 0;
@@ -303,8 +329,9 @@ object-fit: cover;
 .custom-shape-divider-top-1666725209 .shape-fill {
     fill: #FFFFFF;
 }
+
 .custom-shape-divider-bottom-1666725625 {
-    
+
     bottom: 0;
     left: 0;
     width: 100%;
@@ -349,12 +376,12 @@ object-fit: cover;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 50px;
-  
+
 
 }
 
 .card {
-   
+
     box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2);
     margin: 0;
     border-radius: 30px;
@@ -362,8 +389,8 @@ object-fit: cover;
     text-align: center;
     width: 100%;
     height: 100%;
-    transition: 0.5s ease;
     background: #fff;
+    transition: 0.5s ease;
 }
 
 .card:hover {
@@ -374,7 +401,7 @@ object-fit: cover;
 
 
 .card img {
-    width:100%;
+    width: 100%;
     height: 50%;
 }
 
@@ -431,7 +458,7 @@ object-fit: cover;
 }
 
 .services-reveal {
-    padding:0;
+    padding: 0;
     max-width: 1500px;
     margin: 80px auto;
 }
@@ -460,7 +487,7 @@ object-fit: cover;
     font-size: 20px;
     margin-bottom: 20px;
     font-family: "poppins", sams-serif;
-    
+
 
 }
 
@@ -483,7 +510,7 @@ object-fit: cover;
 
 }
 
-.contactos{
+.contactos {
     background-color: #262626;
     color: #FFFFFF;
 
@@ -492,7 +519,7 @@ object-fit: cover;
 .contactos h5 {
     font-size: 20px;
     font-family: "poppins", sams-serif;
-    
+
 
 }
 
@@ -611,7 +638,7 @@ footer p {
 
 
 @media only screen and (max-width:600px) {
-    
+
 
     .download {
         font-size: 15px;
@@ -625,6 +652,7 @@ footer p {
     .fa {
         display: none;
     }
+
     .headline {
         font-size: 42px;
     }
@@ -683,36 +711,39 @@ footer p {
 
     .card-grid {
         grid-template-columns: 1fr 1fr;
-       
+
     }
-    
+
 
     .about {
 
         background-size: cover;
     }
+
     .portafolio-reveal {
-        
-        margin:0 50px;
+
+        margin: 0 50px;
     }
+
     .services-reveal {
-        
+
         margin: 0 50px
     }
-    .about{
+
+    .about {
         margin: 50px
     }
-    
+
 }
 
 @media (max-width: 1100px) {
-   
 
-    .headline{
+
+    .headline {
         display: none;
     }
 
-    .container{
+    .container {
         display: block;
     }
 
@@ -720,6 +751,7 @@ footer p {
 
         font-size: 32px;
     }
+
     .skill__title2 {
 
         font-size: 32px;
@@ -734,14 +766,14 @@ footer p {
 
     .main--img img {
         width: 50%;
-        
+
     }
 
     .navigation {
         margin: 0 50px;
     }
 
-   
+
 
 
 }
@@ -759,12 +791,12 @@ footer p {
 
     .card-grid {
         grid-template-columns: 1fr;
-       
+
 
 
     }
-   
-   
+
+
 }
 
 @media (max-width: 930px) {
@@ -787,6 +819,23 @@ footer p {
 
 
     }
+
+    .main--img h1 {
+        font-size: 35px;
+        
+    }
+    .main--img h2 {
+        font-size: 25px;
+        
+    }
+    .main--img p {
+        font-size: 13px;
+        
+    }
+
+    .download{
+        width: 40%;
+    }
 }
 
 
@@ -799,10 +848,10 @@ footer p {
 
     }
 
-  .card img{
-    width: 100%;
-    height: 40%;
-  }
+    .card img {
+        width: 100%;
+        height: 40%;
+    }
 
 
 
@@ -813,9 +862,9 @@ footer p {
 
 
     }
-    
 
-    
+
+
 
 
 
@@ -830,7 +879,7 @@ footer p {
 }
 
 @media (max-width: 400px) {
-    
+
 
     .about-me img {
         width: 100%;
@@ -838,36 +887,40 @@ footer p {
 
 
     }
-    
-  .card p{
-    font-size: 12px;
-  }
-  .card h5{
-    font-size: 15px;
-  }
 
-  .p {
-    font-size: 12px;
-  }
-  .services__item h5 {
-    font-size: 15px;
-   
+    .card p {
+        font-size: 12px;
+    }
 
-}
+    .card h5 {
+        font-size: 15px;
+    }
 
- 
- 
- 
+    .p {
+        font-size: 12px;
+    }
+
+    .services__item h5 {
+        font-size: 15px;
+
+
+    }
+
+
+
+
     .portafolio-reveal {
-        
+
         margin: 20px;
     }
+
     .services-reveal {
-       
+
         margin: 20px
     }
-    .about{
-        margin: 20px 
+
+    .about {
+        margin: 20px
     }
-    
+
 }
