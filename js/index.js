@@ -2,27 +2,27 @@ window.sr =ScrollReveal();
 sr.reveal('.main--img',{
     duration:5000,
     origin:'rigth',
-    distance:'-50px'
+    distance:'-10px'
 
 })
 sr.reveal('.main--content',{
     duration:5000,
     origin:'left',
-    distance:'-50px'
+    distance:'-10px'
 
 })
 
 sr.reveal('.about-rigth',{
     duration:5000,
     origin:'rigth',
-    distance:'-50px'
+    distance:'-10px'
 
 })
 
 sr.reveal('.about-left',{
     duration:5000,
     origin:'left',
-    distance:'-50px'
+    distance:'-10px'
 
 })
 
@@ -35,7 +35,7 @@ sr.reveal('#skill__title2',{
 sr.reveal('#card1',{
     duration:5000,
     origin:'rigth',
-    distance:'-50px'
+    distance:'-10px'
 
 })
 
@@ -48,7 +48,7 @@ sr.reveal('#card2',{
 sr.reveal('#card3',{
     duration:5000,
     origin:'left',
-    distance:'-50px'
+    distance:'-10px'
 
 })
 
